@@ -1,6 +1,6 @@
 {
   "name": "civet-orm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An extremely simple in-memory data store that exposes a Mongoose-like API.",
   "main": "civet.js",
   "scripts": {
