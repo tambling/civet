@@ -90,7 +90,7 @@ If we look at the record now, it would be `{foo: "bar", baz: "wab"}`. Because th
 ### `Civet#remove`
 We've created, we've read (two ways), we've updated– now, it's time to delete. The `remove` method takes two arguments: the ID of the record to be deleted, and a callback to run after it deletes. The callback takes the customary `error`, but you can also give it the record you just deleted, in case you want to say goodbye. Again, let's see an example:
 
-```
+```js
 civetInstance.remove(1, function(error, record){
 	if(error) {
 		console.log(error);
