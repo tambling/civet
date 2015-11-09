@@ -8,7 +8,7 @@ Civet.prototype.create = function(entity, callback){
 
   if((entity instanceof Object) && !Array.isArray(entity)) {
     entity.id = this.id;
-    this.data[entity.id] = Object.assign({}, entity);
+    this.data[entity.id] = Object.create({}, entity);
     this.id += 1; 
   } else {
     error = "You need to pass in an object!";
@@ -41,7 +41,7 @@ Civet.prototype.findById = function(id, callback) {
 }
 
 Civet.prototype.remove = function(id, callback){
-  var entity = Object.assign({}, this.data[id]);
+  var entity = Object.create({}, this.data[id]);
   var error = null;
 
   if(entity){
