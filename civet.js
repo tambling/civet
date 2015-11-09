@@ -53,4 +53,4 @@ Civet.prototype.remove = function(id, callback){
   callback(error, entity);
 }
 
-module.exports = Civet;
+module.exports = new Civet();
