@@ -1,0 +1,11 @@
+{
+  "name": "civet-orm",
+  "version": "0.0.1",
+  "description": "An extremely simple in-memory data store that exposes a Mongoose-like API.",
+  "main": "civet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dean Tambling <dean@tambling.me> (http://tambling.me)",
+  "license": "MIT"
+}
